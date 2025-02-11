@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #003b3b;
+    color: #aefcf4;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #7fffd4;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .user {
+    font-style: italic;
+}
+
+.session-box {
+    background-color: #a0c4c4;
+    padding: 20px;
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.session-box h2,
+.session-box p {
+    margin-bottom: 10px;
+}
+
+.mind-map {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.groups-container {
+    background-color: #a0c4c4;
+    padding: 15px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.groups-container h3 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.group-box {
+    background-color: #c4c4c4;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.download-btn {
+    background-color: #a0c4c4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.groups {
+    display: flex;
+    justify-content: center;
+}
+
+.groups .image-container {
+    width: 70%;
+}
+
+.next-prev {
+    background-color: #7fffd4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 5px;
+}
